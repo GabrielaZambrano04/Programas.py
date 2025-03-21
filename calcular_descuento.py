@@ -10,13 +10,13 @@ def calcular_descuento(monto_total, porcentaje_descuento=10):
     return descuento
 
 # Primera llamada: Usando solo el monto total (se aplica el 10% por defecto)
-monto1 = 200
+monto1 = 300
 descuento1 = calcular_descuento(monto1)
 monto_final1 = monto1 - descuento1
 print(f"Compra de ${monto1:.2f} con 10% de descuento: Descuento = ${descuento1:.2f}, Monto final = ${monto_final1:.2f}")
 
 # Segunda llamada: Especificando el monto total y un porcentaje de descuento diferente
-monto2 = 500
+monto2 = 400
 porcentaje2 = 15  # 15% de descuento
 descuento2 = calcular_descuento(monto2, porcentaje2)
 monto_final2 = monto2 - descuento2
